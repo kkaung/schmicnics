@@ -18,7 +18,9 @@ import AvatarFour from '/public/avatars/avatar-04.jpg';
 import AvatarFive from '/public/avatars/avatar-05.jpg';
 import AvatarSix from '/public/avatars/avatar-06.jpeg';
 
-interface HeroProps extends HTMLAttributes<HTMLElement> {}
+interface HeroProps extends HTMLAttributes<HTMLElement> {
+    location: string;
+}
 
 export default function Hero({ ...props }: HeroProps) {
     const avatars = [

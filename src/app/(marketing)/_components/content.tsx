@@ -13,7 +13,7 @@ interface ContentProps {
 export default function Content({ location }: ContentProps) {
     return (
         <Shell>
-            <Hero />
+            <Hero location={location} />
             <HowWork />
             <Features location={location} />
             <FAQs />

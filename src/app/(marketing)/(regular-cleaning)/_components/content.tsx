@@ -4,7 +4,6 @@ import React from 'react';
 import Hero from './hero';
 import FAQs from './faqs';
 import Features from './features';
-
 import HowWork from './how-work';
 
 interface ContentProps {
