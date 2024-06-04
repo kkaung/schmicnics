@@ -6,7 +6,7 @@ import Content from './_components/content';
 import CloakedContent from './_components/cloaked-content';
 
 export const metadata: Metadata = {
-    title: `Schmicnics - #1 House Cleaning Service in Canberra`,
+    title: `Schmicnics: #1 House Cleaning Service in Canberra, ACT`,
     description:
         'Best House Cleaning Service ✔️ 100% Guarantee ✔️ 5 Star-Rated Cleaning ✔️ Trusted & Vetted Cleaners ✔️ Instant Online Booking',
 };

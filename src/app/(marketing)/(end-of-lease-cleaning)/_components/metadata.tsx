@@ -5,7 +5,7 @@ export const getMetadata = (location: string): Metadata => {
     const pathname = getPathname();
 
     return {
-        title: `Bond Cleaning ${location} - #1 End Of Lease Cleaning Service in ${location}`,
+        title: `Bond Cleaning ${location}: #1 End Of Lease Cleaning Service in ${location}, ACT`,
         description: `Best Vacate Cleaning Service ✔️ 100% Guarantee ✔️ 5 Star-Rated Cleaning ✔️ Trusted & Vetted Cleaners ✔️ Instant Online Booking`,
         alternates: {
             canonical: pathname,
